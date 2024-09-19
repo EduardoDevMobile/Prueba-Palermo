@@ -32,7 +32,9 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.rom)
+//    implementation(libs.romktx)
+    annotationProcessor(libs.romProcesor)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
